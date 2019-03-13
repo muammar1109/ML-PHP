@@ -1,0 +1,59 @@
+\section{Pengantar Matching Learning}
+Machine learning adalah ilmu komputer yang bisa bekerja tanpa diprogram secara eksplisit.Banyak peneliti berpikir bagaimana cara untuk membuat kemajuan menuju AI terhadap tingkat manusia. Machine learning ini merupakan kecerdasan buatan yang mempelajari bagaimana membuat data. Machine learning ini biasa disingkat dengan ML. Ini dibutuhkan untuk menerapkan teknik yang cepat dan kuat dalam menemukan masalah baru.
+Akhirnya, pemakaian teknik ini berkaitan dengan pembelajaran mesin dan AI. Mesin ini membuktikan kepada algoritma atau program yang berjalan di komputer. Oleh karena itu, jika kita ingin belajar machine learning, pastikan anda terus berinteraksi dengan data. Semua pengetahuan machine learning pasti akan melibatkan data. Dari pada penasaran, langsung aja ikutin ulasan berikut.
+\subsection{Definisi Machine Learning}
+Machine learning adalah aplikasi dari disiplin ilmu kecerdasan buatan (Artificial Intelligence) yang menggunakan teknik statistika untuk menghasilkan suatu model otomatis dari sekumpulan data, dengan tujuan memberikan komputer kemampuan untuk “belajar”. Pembelajaran mesin atau machine learning memungkinkan komputer mempelajari sejumlah data (learn from data) sehingga dapat menghasilkan suatu model untuk melakukan proses input-output tanpa menggunakan kode program yang dibuat secara eksplisit. Proses belajar tersebut menggunakan algoritma khusus yang disebut machine learning algorithms. Terdapat banyak algoritma machine learning dengan efesiensi dan spesifikasi kasus yang berbeda-beda.
+\subsection{Konsep Dasar Machine Learning}
+Konsep tersebut meliputi kemampuan suatu individu dalam meningkatkan kecerdasan tersebut untuk belajar tanpa terkecuali pada sebuah mesin. Mesin yang mampu belajar, akan meningkatkan produktivitas manusia. Maka ia juga akan memiliki kekuatan yang mungkin tidak dimiliki mesin lainnya.
+Bagian Machine Learning
+Ketika Anda melihat situs web yang kompleks seperti Facebook, Amazon, atau Netflix, kemungkinan besar situs ini berisi beberapa model Machine Learning. Dari model yang didapatkan, kita dapat melakukan prediksi yang berbeda, tergantung pada tipenya. Jika hasil prediksi bersifat diskrit, maka dinamakan proses klasifikasi. Sistem pembelajaran mesin terdiri dari tiga bagian utama, yaitu:
+ \begin{enumerate}
+    \item Model: sistem yang membentuk prediksi atau identifikasi.
+    \item Parameter: sinyal atau faktor yang digunakan oleh model untuk membentuk keputusannya.
+    \item Pemelajaran: sistem yang menyesuaikan parameter dan model dalam prediksi versus hasil aktual.
+  \end{enumerate}
+\subsection{Bagaimana Machine Learning Bekerja?}
+Machine learning memiliki dua jenis teknik: Supervised Learning, yang melatih model pada data input dan output yang diketahui sehingga dapat memprediksi keluaran masa depan dan Unsupervised Learning, yang menemukan pola tersembunyi atau struktur intrinsik pada data masukan.
+Penerapan metode Machine Learning dalam beberapa tahun terakhir telah berkembang di mana-mana dalam kehidupan sehari-hari. Machine Learning bukanlah hal baru dalam lanskap ilmu komputer. Machine Learning mengaitkan proses struktural dimana setiap bagian menciptakan versi mesin yang lebih baik.
+  \begin{itemize}
+    \item Supervised Learning
+      Pembelajaran mesin yang diawasi menciptakan model yang melancarkan prediksi berdasarkan bukti adanya ketidakpastian. Algoritma pembelajaran yang diawasi memerlukan seperangkat data masukan dan tanggapan yang diketahui terhadap data (output) dan melatih model untuk menghasilkan prediksi yang masuk akal untuk respon terhadap data baru. Gunakan pembelajaran ini jika Anda ingin mengetahui data output yang ingin Anda prediksi. Pembelajaran ini diawasi menggunakan teknik klasifikasi dan regresi untuk mengembangkan model prediktif.
+      Teknik klasifikasi memprediksi respons diskrit – misalnya, apakah email itu asli atau spam, atau apakah tumor itu kanker atau tidak. Model klasifikasi mengklasifikasikan data masukan ke dalam kategori tersebut. Aplikasi yang umum termasuk pencitraan medis. Misalnya aplikasi untuk pengenalan tulisan, maka anda harus menggunakan klasifikasi untuk mengenali huruf dan angka.
+      Jika Anda bisa melakukannya, Anda memiliki landasan yang dapat Anda gunakan pada satu dataset ke dataset yang akan dicoba lagi selanjutnya. Anda bisa mengisi waktu seperti mempersiapkan data lebih lanjut dan memperbaiki hasilnya nanti, begitu Anda lebih percaya diri. Dalam pengolahan citra dan penglihatan komputer, teknik pengenalan pola tanpa pemeriksaan digunakan untuk deteksi objek dan segmentasi. Algoritma yang umum mengadakan klasifikasi yang meliputi dukungan mesin vektor (SVM).
+    \item Unsupervised Learning
+      Ini menemukan pola tersembunyi atau struktur intrinsik dalam data. Ini digunakan untuk menarik kesimpulan dari kumpulan data yang terdiri dari data masukan tanpa respon berlabel. Clustering adalah teknik belajar tanpa pengamatan yang umum. Ini digunakan untuk analisis data eksplorasi dalam menemukan pola atau pengelompokan tertutup dalam data. Aplikasi untuk analisis cluster meliputi analisis urutan gen, riset pasar dan pengenalan objek.
+      Misalnya, jika sebuah perusahaan telepon seluler ingin mengoptimalkan lokasi di mana mereka membangun menara telepon seluler, mereka dapat menggunakan pembelajaran mesin untuk memperkirakan jumlah kelompok orang yang bergantung pada menara mereka. Telepon hanya bisa berbicara dengan satu menara sekaligus, sehingga tim menggunakan algoritma pengelompokan untuk merancang peletakan menara seluler terbaik dalam mengoptimalkan penerimaan sinyal bagi kelompok dan dari pelanggan mereka.
+      Algoritma yang umum mengadakan clustering meliputi k-means dan k-medoids, hirarki clustering, model campuran Gaussian, model Markov tersembunyi, peta pengorganisasian sendiri, clustering fuzzy c-means dan clustering subtraktif.
+  \end{itemize}
+\subsection{Metode Algoritma Machine Learning}
+  \begin{enumerate}
+    \itemSupervised machine learning algorithms
+      Supervised machine learning adalah algoritma machine learning yang dapat menerapkan informasi yang telah ada pada data dengan memberikan label tertentu, misalnya data yang telah diklasifikasikan sebelumnya (terarah). Algoritma ini mampu memberikan target terhadap output yang dilakukan dengan membandingkan pengalaman belajar di masa lalu.
+    \item Unsupervised machine learning algorithms
+      Unsupervised machine learning adalah algoritma machine learning yang digunakan pada data yang tidak mempunyai informasi yang dapat diterapkan secara langsung (tidak terarah). Algoritma ini diharapkan mampu menemukan struktur tersembunyi pada data yang tidak berlabel.
+    \item Semi-supervised machine learning algorithms
+      Semi-supervised machine learning adalah algoritma yang digunakan untuk melakukan pemebelajaran data berlabel dan tanpa label. Sistem yang menggunakan metode ini dapat meningkatkan efesiensi output yang dihasilkan.
+    \item Reinforcement machine learning algorithms
+      Reinforcement machine learning adalah algoritma yang mempunyai kemampuan untuk bertinteraksi dengan proses belajar yang dilakukan, algoritma ini akan memberikan poin (reward) saat model yang diberikan semakin baik atau mengurangi poin (error) saat model yang dihasilkan semakin buruk. Salah satu penerapannya adalah pada mesin pencari.
+  \end{enumerate}
+\subsection{Aplikasi Machine Learning}
+Data bisa saja sama, namun untuk pendekatan terhadap algoritmanya berbeda-beda dalam hal  mendapatkan hasil yang optimal. Berikut merupakan contoh aplikasi pembelajaran mesin:
+  \begin{enumerate}
+     \item Penelusuran web: Laman peringkat berdasarkan apa yang anda klik
+     \item Biologi komputasional: Obat desain rasional di komputer berdasarkan eksperimen masa lalu.
+     \item Keuangan: tetapkan siapa yang akan mengirim kartu kredit yang ditawarkan. Evaluasi risiko pada penawaran kredit dan bagaimana cara memutuskan dimana menginvestasikan uangnya.
+     \item E-commerce: Memprediksi customer churn. Apakah transaksi itu salah atau tidak.
+     \item Eksplorasi ruang angkasa: Menyelidiki ruang angkasa dan astronomi radio.
+     \item Robotika: Bagaimana menangani ketidakpastian di lingkungan baru. Seperti otonom dan Mobil self-driving.
+     \item Pengambilan informasi: Ajukan pertanyaan melalui database di seluruh web.
+     \itemJaringan sosial: Data tentang hubungan dan preferensi. Mesin belajar mengekstrak nilai dari data.
+     \item Debugging: Ini didunakan dalam masalah ilmu komputer seperti debugging.
+  \end{enumerate}
+Dari model yang didapatkan, kita dapat melakukan prediksi yang dibedakan menjadi dua macam, tergantung tipe keluarannya. Jika hasil prediksi bersifat diskrit, maka ini dinamakan proses klasifikasi. Salah satu teknik pengaplikasian machine learning adalah supervised learning. Seperti yang dibahas sebelumnya, machine learning tanpa data ini tidak akan bisa bekerja.
+Dampak Machine Learning di Masyarakat
+Dalam penerapan teknologi machine learning ini, kebanyakan orang mungkin telah merasakan dampaknya sekarang. Dalam pengembangan teknologi machine learning ada dampak yang saling bertolak belakang yaitu dampak negatif dan dampak positif. Ini yang akan memberikan masukan yang berdampak buruk dan baiknya, tergantung terhadap orang yang menilainya. Akan tetapi semua ini tidak selalu berjalan dengan mulus.
+Dampak positif dari machine learning adalah mendapat kesempatan bagi para wirausahawan dan praktisi teknologi untuk terus berkreasi dalam mengembangkan machine learning. Tentunya untuk membantu aktivitas manusia sebagi sesuatu yang menguntungkan. Itulah salah satu dampak positif dari machine learning. Contohnya adalah untuk pengecekan ejaan untuk tiap bahasa yang ada dalam microsoft Word.
+Pengecekan manual akan menghabiskan waktu untuk beberapa hari, juga memerlukan banyak tenaga untuk mendapatkan penulis yang sempurna. Namun, dengan bantuan fitur pengecekan tersebut, maka secara real-time kesalahan yang terjadi saat pengetikan kita bisa langsung melihatnya.
+Dampak negatifnya kita harus waspada. Yang takut di khawatirkan yaitu adanya pengurangan tenaga kerja. Kenapa? Karena pekerjaan yang seharusnya di kerjakan oleh banyak orang, sekarang telah digantikan oleh alat teknologi yang disebut sebagai machine learning. Hal tersebut merupakan suatu permasalahan yang akan kita hadapi. Ditambah dengan ketergantungan terhadap teknologi yang semakin banyak dan berkembang di kehidupan kita. Kadang manusia lebih nyaman dengan perkembangan teknologi sekarang ini seperti gadget.
+
+
