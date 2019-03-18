@@ -1,237 +1,58 @@
-\section{Pengenalan Jaringan Komputer}
- Jaringan Komputer merupakan kumpulan dari beberapa PC(Personal Computer) atau peripheral yang saling terhubung melalui media transmisi(melalui kabel atau nirkabel) dan melakukan akses bersama  terhadap suatu resource.
- \par Secara lebih sederhana, jaringan komputer dapat diartikan sebagai sekumpulan komputer berserta mekanisme dan prosedurnya yang saling terhubung dan berkomunikasi.  Komunikasi yang dilakukan oleh komputer tersebut dapat berupa transfer berbagai data, instruksi, dan informasi dari satu komputer ke komputer yang lain \cite{irawan2012analisis}.
+/section{Pengantar Machine Learning}
+Machine Learning adalah ilmu komputer yang bisa bekerja tanpa diprogram secara eksplisit.Banyak peneliti berpikir bagaimana cara untuk membuat kemajuan menuju AI terhadap tingkat manusia. Machine learning ini merupakan kecerdasan buatan yang mempelajari bagaimana membuat data. Machine learning ini biasa disingkat dengan ML. Ini dibutuhkan untuk menerapkan teknik yang cepat dan kuat dalam menemukan masalah baru.
+Akhirnya, pemakaian teknik ini berkaitan dengan pembelajaran mesin dan AI. Mesin ini membuktikan kepada algoritma atau program yang berjalan di komputer. Oleh karena itu, jika kita ingin belajar machine learning, pastikan anda terus berinteraksi dengan data. Semua pengetahuan machine learning pasti akan melibatkan data. Dari pada penasaran, langsung aja ikutin ulasan berikut.
+/subsection{Apa itu Machine Learning?}
+Machine learning adalah aplikasi dari disiplin ilmu kecerdasan buatan (Artificial Intelligence) yang menggunakan teknik statistika untuk menghasilkan suatu model otomatis dari sekumpulan data, dengan tujuan memberikan komputer kemampuan untuk “belajar”. Pembelajaran mesin atau machine learning memungkinkan komputer mempelajari sejumlah data (learn from data) sehingga dapat menghasilkan suatu model untuk melakukan proses input-output tanpa menggunakan kode program yang dibuat secara eksplisit. Proses belajar tersebut menggunakan algoritma khusus yang disebut machine learning algorithms. Terdapat banyak algoritma machine learning dengan efesiensi dan spesifikasi kasus yang berbeda-beda.
+/subsection{Konsep Dasar Machine Learning}
+Konsep tersebut meliputi kemampuan suatu individu dalam meningkatkan kecerdasan tersebut untuk belajar tanpa terkecuali pada sebuah mesin. Mesin yang mampu belajar, akan meningkatkan produktivitas manusia. Maka ia juga akan memiliki kekuatan yang mungkin tidak dimiliki mesin lainnya.
+/subsection{Bagian Machine Learning}
+Ketika Anda melihat situs web yang kompleks seperti Facebook, Amazon, atau Netflix, kemungkinan besar situs ini berisi beberapa model Machine Learning. Dari model yang didapatkan, kita dapat melakukan prediksi yang berbeda, tergantung pada tipenya. Jika hasil prediksi bersifat diskrit, maka dinamakan proses klasifikasi. Sistem pembelajaran mesin terdiri dari tiga bagian utama, yaitu:
+/begin{enumerate}
+/item Model: sistem yang membentuk prediksi atau identifikasi.
+/item Parameter: sinyal atau faktor yang digunakan oleh model untuk membentuk keputusannya.
+/item Pemelajaran: sistem yang menyesuaikan parameter dan model dalam prediksi versus hasil aktual.
+/end{enumerate}
+/subsection{Cara Kerja Machine Learning}
+Machine learning memiliki dua jenis teknik: Supervised Learning, yang melatih model pada data input dan output yang diketahui sehingga dapat memprediksi keluaran masa depan dan Unsupervised Learning, yang menemukan pola tersembunyi atau struktur intrinsik pada data masukan.
+Penerapan metode Machine Learning dalam beberapa tahun terakhir telah berkembang di mana-mana dalam kehidupan sehari-hari. Machine Learning bukanlah hal baru dalam lanskap ilmu komputer. Machine Learning mengaitkan proses struktural dimana setiap bagian menciptakan versi mesin yang lebih baik.
+/begin{itemize}
+/item Supervised Learning
+Pembelajaran mesin yang diawasi menciptakan model yang melancarkan prediksi berdasarkan bukti adanya ketidakpastian. Algoritma pembelajaran yang diawasi memerlukan seperangkat data masukan dan tanggapan yang diketahui terhadap data (output) dan melatih model untuk menghasilkan prediksi yang masuk akal untuk respon terhadap data baru. Gunakan pembelajaran ini jika Anda ingin mengetahui data output yang ingin Anda prediksi. Pembelajaran ini diawasi menggunakan teknik klasifikasi dan regresi untuk mengembangkan model prediktif.
+Teknik klasifikasi memprediksi respons diskrit – misalnya, apakah email itu asli atau spam, atau apakah tumor itu kanker atau tidak. Model klasifikasi mengklasifikasikan data masukan ke dalam kategori tersebut. Aplikasi yang umum termasuk pencitraan medis. Misalnya aplikasi untuk pengenalan tulisan, maka anda harus menggunakan klasifikasi untuk mengenali huruf dan angka.
+Jika Anda bisa melakukannya, Anda memiliki landasan yang dapat Anda gunakan pada satu dataset ke dataset yang akan dicoba lagi selanjutnya. Anda bisa mengisi waktu seperti mempersiapkan data lebih lanjut dan memperbaiki hasilnya nanti, begitu Anda lebih percaya diri. Dalam pengolahan citra dan penglihatan komputer, teknik pengenalan pola tanpa pemeriksaan digunakan untuk deteksi objek dan segmentasi. Algoritma yang umum mengadakan klasifikasi yang meliputi dukungan mesin vektor (SVM).
+/item Unsupervised Learning
+Ini menemukan pola tersembunyi atau struktur intrinsik dalam data. Ini digunakan untuk menarik kesimpulan dari kumpulan data yang terdiri dari data masukan tanpa respon berlabel. Clustering adalah teknik belajar tanpa pengamatan yang umum. Ini digunakan untuk analisis data eksplorasi dalam menemukan pola atau pengelompokan tertutup dalam data. Aplikasi untuk analisis cluster meliputi analisis urutan gen, riset pasar dan pengenalan objek.
+Misalnya, jika sebuah perusahaan telepon seluler ingin mengoptimalkan lokasi di mana mereka membangun menara telepon seluler, mereka dapat menggunakan pembelajaran mesin untuk memperkirakan jumlah kelompok orang yang bergantung pada menara mereka. Telepon hanya bisa berbicara dengan satu menara sekaligus, sehingga tim menggunakan algoritma pengelompokan untuk merancang peletakan menara seluler terbaik dalam mengoptimalkan penerimaan sinyal bagi kelompok dan dari pelanggan mereka.
+Algoritma yang umum mengadakan clustering meliputi k-means dan k-medoids, hirarki clustering, model campuran Gaussian, model Markov tersembunyi, peta pengorganisasian sendiri, clustering fuzzy c-means dan clustering subtraktif.
+/subsection {Metode Algoritma Machine Learning} 
+/begin{enumerate}
+/item Supervised machine learning algorithms
+Supervised machine learning adalah algoritma machine learning yang dapat menerapkan informasi yang telah ada pada data dengan memberikan label tertentu, misalnya data yang telah diklasifikasikan sebelumnya (terarah). Algoritma ini mampu memberikan target terhadap output yang dilakukan dengan membandingkan pengalaman belajar di masa lalu.
+/item Unsupervised machine learning algorithms
+Unsupervised machine learning adalah algoritma machine learning yang digunakan pada data yang tidak mempunyai informasi yang dapat diterapkan secara langsung (tidak terarah). Algoritma ini diharapkan mampu menemukan struktur tersembunyi pada data yang tidak berlabel.
+/item Semi-supervised machine learning algorithms
+Semi-supervised machine learning adalah algoritma yang digunakan untuk melakukan pemebelajaran data berlabel dan tanpa label. Sistem yang menggunakan metode ini dapat meningkatkan efesiensi output yang dihasilkan.
+/item Reinforcement machine learning algorithms
+Reinforcement machine learning adalah algoritma yang mempunyai kemampuan untuk bertinteraksi dengan proses belajar yang dilakukan, algoritma ini akan memberikan poin (reward) saat model yang diberikan semakin baik atau mengurangi poin (error) saat model yang dihasilkan semakin buruk. Salah satu penerapannya adalah pada mesin pencari.
+/end{enumerate}
+/subsection{Aplikasi Machine Learning} 
+Data bisa saja sama, namun untuk pendekatan terhadap algoritmanya berbeda-beda dalam hal  mendapatkan hasil yang optimal. Berikut merupakan contoh aplikasi pembelajaran mesin:
+/end{enumerate}
+/item Penelusuran web: Laman peringkat berdasarkan apa yang anda klik
+/item Biologi komputasional: Obat desain rasional di komputer berdasarkan eksperimen masa lalu.
+/item Keuangan: tetapkan siapa yang akan mengirim kartu kredit yang ditawarkan. Evaluasi risiko pada penawaran kredit dan bagaimana cara memutuskan dimana menginvestasikan uangnya.
+/item E-commerce: Memprediksi customer churn. Apakah transaksi itu salah atau tidak.
+/item Eksplorasi ruang angkasa: Menyelidiki ruang angkasa dan astronomi radio.
+/item Robotika: Bagaimana menangani ketidakpastian di lingkungan baru. Seperti otonom dan Mobil self-driving.
+/item Pengambilan informasi: Ajukan pertanyaan melalui database di seluruh web.
+/item Jaringan sosial: Data tentang hubungan dan preferensi. Mesin belajar mengekstrak nilai dari data.
+/item Debugging: Ini didunakan dalam masalah ilmu komputer seperti debugging.
+/end{enumerate}
+Dari model yang didapatkan, kita dapat melakukan prediksi yang dibedakan menjadi dua macam, tergantung tipe keluarannya. Jika hasil prediksi bersifat diskrit, maka ini dinamakan proses klasifikasi. Salah satu teknik pengaplikasian machine learning adalah supervised learning. Seperti yang dibahas sebelumnya, machine learning tanpa data ini tidak akan bisa bekerja.
+/subsection{Dampak Machine Learning di Masyarakat}  
+Dalam penerapan teknologi machine learning ini, kebanyakan orang mungkin telah merasakan dampaknya sekarang. Dalam pengembangan teknologi machine learning ada dampak yang saling bertolak belakang yaitu dampak negatif dan dampak positif. Ini yang akan memberikan masukan yang berdampak buruk dan baiknya, tergantung terhadap orang yang menilainya. Akan tetapi semua ini tidak selalu berjalan dengan mulus.
+Dampak positif dari machine learning adalah mendapat kesempatan bagi para wirausahawan dan praktisi teknologi untuk terus berkreasi dalam mengembangkan machine learning. Tentunya untuk membantu aktivitas manusia sebagi sesuatu yang menguntungkan. Itulah salah satu dampak positif dari machine learning. Contohnya adalah untuk pengecekan ejaan untuk tiap bahasa yang ada dalam microsoft Word.
+Pengecekan manual akan menghabiskan waktu untuk beberapa hari, juga memerlukan banyak tenaga untuk mendapatkan penulis yang sempurna. Namun, dengan bantuan fitur pengecekan tersebut, maka secara real-time kesalahan yang terjadi saat pengetikan kita bisa langsung melihatnya.
+Dampak negatifnya kita harus waspada. Yang takut di khawatirkan yaitu adanya pengurangan tenaga kerja. Kenapa? Karena pekerjaan yang seharusnya di kerjakan oleh banyak orang, sekarang telah digantikan oleh alat teknologi yang disebut sebagai machine learning. Hal tersebut merupakan suatu permasalahan yang akan kita hadapi. Ditambah dengan ketergantungan terhadap teknologi yang semakin banyak dan berkembang di kehidupan kita. Kadang manusia lebih nyaman dengan perkembangan teknologi sekarang ini seperti gadget.
 
- resource(sumber daya) tersebut terdiri dari:
- \begin{enumerate}
-   \item Hardware, seperti: Printer,mesin fax, store device.
-   \item Software, seperti: game, pemprograman client server, multi user, mail server
-   \item Stored, Seperti: frontend atau backend
-   \item Internet,Seperti: dial atau wireless
- \end{enumerate}
 
-Keuntungan Jaringan Komputer:
-\begin{enumerate}
-  \item Lebih hemat dalam biaya pengadaan dan pemeliharaan
-  \item Memungkinkan management sumber daya lebih efisien
-  \item Mempertahankan kualitas Informasi agar tatap handal
-  \item Memungkinkan Kelompok kerja berkomunikasi lebih efisien
-  \item Keamanan data lebih terjamin
-\end{enumerate}
-
-Type Jaringan Komputer
- Pada dasarnya seseorang menentukan type jaringan komputer karena beberapa alasan, diantaranya adalah:
- \begin{enumerate}
-   \item Disesuaikan dengan kebutuhan kita dalam membuat jaringan komputer.
-   \item Tergantung kepada jumlah pengguna yang akan melakukan sharing data.
-   \item keamanan (securitas) dari masing-masing jaringan.
-   \item Mempertimbangkan dalam biaya pengadaan dari jaringan komputer
-   \item Sumber daya admin menentukan jaringan komputer.
-   \item Bentuk dari organisasi yang terbentuk.
- \end{enumerate}
-
-Server Based
-pada type jaringan komputer server based di perlukan satu atau lebih komputer khusus yang di sebut server untuk mengatur lalu lintas data atau informasi dalam jaringan komputer.komputer-komputer selain server dinamakan client. server yaitu komputer yang menyediakan fasilitas bagi komputer-komputer lain, sedangkan client yaitu komputer-komputer yang menerima atau menggunakan fasilitas yang di sediakan oleh server \cite{yudianto2007jaringan}.
-
-server dibedakan atas dua macam yaitu dedicated server(server bisa jadi client) dan undedicated server(server mutlak,tidak bisa jadi client).
-
-macam-macam undedicated server:
-\begin{itemize}
-  \item DNS (Domain Name Service) yaitu server yang di gunakan untuk mengkonfersi penamaan IP address menjadi penanaman yang lebih familier (umum).
-  \item DHCP (Dinamic Host Configurasi Protocol) yaitu server yang di gunakan untuk memberikan pengalaman IP address secara otomatis yang bersifat random. cara kerja random. Cara kerjanya pertama request (permintaan) kemudian dibroadcast.
-  \item  FTP (file Transfer Protokol) yaitu server yang di gunakan untuk mengola jenis file/folder supaya data yang dinformasikan terpusat
-  \item Mail Server merupakan jenis data dalam bentuk surat elektronik dibedakan menjadi dua yitu dalam bentuk text POP V3 (post office protocol) dan dalam bentuk web SMTP (simple Mail Transfer Protocol)
-  \item Web server yaitu server yang di gunakan untuk mengelola data web yang bersifat dinamis.
-  \item Database server yaitu server dalam bentuk file database.
-\end{itemize}
-
-ciri-ciri Server based
-\begin{itemize}
-  \item Operating System yang di gunakan berjenis network
-  \item Perangkat yang di gunakan lebih dari 10 PC
-  \item Terdapat komputer yang di jadikan sebagai pengontrol(server)\cite{wahyono2007building}
-\end{itemize}
-
-kelebihan Server based
-\begin{itemize}
-  \item terpusatnya penyedia resource
-  \item Sharing data lebih efektif dan efesien
-  \item System keamanan dan admistrasi jaringan lebih baik
-\end{itemize}
-
-Ciri-ciri Server Based
-\begin{itemize}
-  \item Operating System yang di gunakan berjenis network
-  \item Perangkat yang di gunakan lebih dari 10 PC
-  \item Terdapat Komputer yang di jadikan sebagai pengontrol(server)
-\end{itemize}
-
-Kelebihan Server Based
-\begin{itemize}
-  \item Terpusatnya penyedia resource
-  \item Sharing data lebih efektif dan efesien
-  \item System keamanan dan administrasi jaringan lebih baik
-\end{itemize}
-
-\subsection {Jenis-jenis Jaringan Komputer}
- Jenis jenis jaringan komputer dilihat berdasarkan ruang lingkup dan luas jangkuannya,di bedakan menjadi beberapa macam,yaitu:
-\begin{itemize}
-  \item Local Area Network(LAN)
-   LAN adalah suatu system jaringan di mana setiao komputer atau perangkat keras dan perangkat lunak di gabungkan agar dapat saling berkomunikasi (terintegrasi) dalam area kerja tertentu dengan menggunakan data dan program yang sama,juga mempunyai kecepatan transfer data lebih cepat. Ruang Lingkup LAN anatr ruangan,gedung,kantor
-\end{itemize}
-
-\subsection {Topologi Jaringan Komputer}
-    Topologi jaringan komputer adalah jaringan yang berhubungan dengan susuanan fisik semua jaringan komputer, baik server maupun client yang menentukan design,susunan,bentuk dari cara penempatan komputer(peripheral) kedalam jaringan-jaringan komputer.Topologi akan membentuk:
-\begin{enumerate}
-  \item Jenis alat yang di gunakan
-  \item kemampuan dari peralatan
-  \item Pertembuhan dari jaringan komputer
-  \item Bagaimana jaringan tersebut diatur
-\end{enumerate}
-
-jenis alat-alat yang di gunakan,syaratnya:
-\begin{itemize}
-  \item Minimal 2 PC
-  \item Adanya Operating System
-  \item Adanya Network Interface Card(NIC)
-  \item Driver NIC
-  \item Media Transmisi
-  \item Konsetrator(penghubung
-  \item Access Point(tanpa kabel)
-  \item Hub
-  \item switch
-  \item Repeater(Penguat signal)
-  \item Router (Pembeda IP Address)
-  \item Gatway(Perbedaan Arsitektur)
-  \item Bridge (penghubung perbedaan topologi)
-  \item Modern (modulasi de Modelator)
-\end{itemize}
-
-Topologi jaringan dibagi menjadi dua macam yaitu:
-\begin{enumerate}
-  \item Fisika
-        Topologi ini menjelaskan tentang bentuk dari jaringan komputer yang dapat dilihat secara fisik/nyara.
-\end{enumerate}
-
-\begin{enumerate}
-  \item Topologi Bus
-        Masing-masing server dan workstastion di hubungkan pada sebuah kabel yang di sebut trunk atau backbone, kabel untuk menghubungkan jaringan ini biasanya menggunakan kabel Coaxial (kabel BNC). setiap server dan workstation yang di sambungkan pada bus menggunakan konektor T.
-\end{enumerate}
- pada kedua ujung dari kabel harus diberi terminator berupa resistor yang memiliki resistansi khusus sebesar 50 Ohm yang berwujud sebuah konektor.Apabila resistansi kabel dibawah maupun di atas 50 Ohm,maka server tidak akan bisa bekerja secara maksimal dalam melayani jaringan,sehingga akses user dan client menjadi menurun.
- kelebihan jaringan topologi bus:
- \begin{itemize}
-   \item Penggunaan kabel yang sedikit sehingga terlihat sederhana.
-   \item Pengembangan jaringan mudah.
- \end{itemize}
- Kekurangan jaringan topologi
- \begin{itemize}
-   \item Membutuhkan repeater untuk jarak jaringan yang terlalu jauh.
-   \item jaringan akan terganggu apabila salah satu komputer mengalami kerusakan.
-   \item Deteksi kesalahan sangat kecil sehingga apabila terjadi gangguan maka sulit sekali mencari kesalahan tersebut.
-   \item Terjadi antrian data
- \end{itemize}
-
-\begin{enumerate}
-  \item Topologi Star
-        Pada topologi in, setiap komputer(node) dalam jaringan terhubung ke sebuah pusat jaringan,yang biasa berupa hub,switch, dan juga berupa komputer. setiap workstasion dihubungkan ke server menggunakan suatu konsentrator. masing-masing workstastion tidak saling berhubungan.jadi setiap user yang terhubung ke server tidak akan dapat berinteraksi dan melakukan apa-apa sebelum server kita di hidupkan.apabila komputer server mati maka semua koneksi jaringan akan terputus.
-\end{enumerate}
-kelebihan jaringan topologi star:
-\begin{itemize}
-  \item Mudah dalam medeteksi kesalahan jaringan karena control jaringan terpusat.
-  \item fleksibe dalam hal pemasangan jaringan baru tanpa mempengaruhi jaringan yang lain.
-  \item apabila salah satu kabel koneksi user terpusat maka hanya user yang bersangkutan saja yang tidak akan berfungsi dan tidak mempengaruhi user yang lain.
-\end{itemize}
-kekurangan jaringan topologi star:
-\begin{itemize}
-  \item Boros dalam pemakaian kabel jika kita hubungkan dengan jaringan yang lebih besar dan luas.
-  \item Control hanya terpusat pada hub/switch sehingga operasionalnya perlu ditangani secara khusus.
-\end{itemize}
-
-\begin{enumerate}
-  \item topologi cincin atau yang sering disebut dengan ring topologi adalah topologi jaringan di mana setiap komputer yang terhubung membuat lingkaran. dengan artian setiap komputer yang terhubung kedalam satu jaringan saling terkoneksi ke dua komputer lainnya sehingga membentuk satu jaringan yang sama dengan bentuk cincin.
-      Pada setiap komputer akan dihubungkan dan di jadikan repeater(penguat signal). komputer yang diberi frame berhak mengirim data dan komputer yang lain menjadi repeater. pada topologi ring terdapat token frame yang saling berkesinambungan dan pada prinsipnya menggunakan CSMA/CD(Carrier Sense Multyple Access/Collection Detection).
-\end{enumerate}
-Kelebihan jaringan topologi ring adalah:
-\begin{itemize}
-  \item Hemat kabel
-  \item Dapat mengisolasi kesalahan dari suatu workstation kekurangan jaringan topolgi ring
-  \item Sangat peka terhadap kesalahan jaringan walaupun sekecil apapun.
-  \item Sukar untuk mengembangkan jaringan,sehingga jaringan tersebut tampak menjadi kaku.
-  \item Biaya pemasangan Lebih besar.
-\end{itemize}
-
-\begin{enumerate}
-  \item Logik
-        sedanhkan topologi ini menjelaskan tentang bagaimana signal akan melewati komputer didalam jaringan. Arsitektur ini terus di kembangkan sampai saat ini.
-\end{enumerate}
-
-\begin{enumerate}
-  \item  Token Ring
-         Token ring memanfaatkan topologi ring. sebuah token bebas mengalir dalam jaringan. Apabila suatu node ingin mengirim paket data, maka paket data yang akan dikirim ditempel pada token, token kemudian akan membawa paket data tersebut pada tujuannya. pada waktu token terisi data, node lain tidak dapat menggunakan token tersebut sampai token menyelesaikan tugas mengirimkan paket data. apabila paket data telah di sampaikan pada tujuan,node pengguna tadi melepaskan token untuk dipakai oleh node lain. cara kerja dinamakan token passing scheme.
-\end{enumerate}
-ciri-ciri token ring:
-\begin{itemize}
-  \item Kecepatannya 1 Mbps, 4 Mbps hingga 16 Mbps.
-  \item untuk menghubungkan station membutuhkan multistation Access Unit(MAU)
-\end{itemize}
-
-\begin{enumerate}
-  \item Arsitektur ArcNet(Attached ResourceComputer Network)
-        Didesain untuk system komputer Datapoint dan dikembangkan oleh Datapoint Corporation. Saat pertama didesain Arcnet menggunakan ukuran frame kecil 508 byte. Arcnet didesain agar handal dan tahan terhadap kerusakan pada kabel dan station.
-\end{enumerate}
-Ciri-ciri ArcNet adalah:
-\begin{itemize}
-  \item Topologi fisik yang di gunakan biasanya topologi Bus atau Star
-  \item Prinsip kerjanya menggunakan token passing scheme atau broadcast
-  \item Implementasinya menggunakan kabel coaxial RG-62
-  \item Kecepatan mulai dari 2.5 Mbps hingga 20 Mbps.
-\end{itemize}
-
-\begin{enumerate}
-  \item Merupakan implementasi metode CSMA/CD yang dikembangkan
-        tahun 1960 pada proyek wire.sejak tahun 1978 IEEE (Institute Of Electrical and Electronics Engineers) telah melakukan
-        standarisasi system Ethernet. Kecepatan Transmisi data saat ini antara 10 sampai 100 Mbps.
-\end{enumerate}
-
-\begin{enumerate}
-  \item FDDI(Fiber Distribusi Data Interface)
-        Merupakan suatu protocol jaringan yang menghubungkan antara
-        dua atau beberapa jaringan yang jaraknya berdekatan ataupun berjauhan adapun metode yang di gunakan dalam FDDI adalah metode token ring.
-\end{enumerate}
-
-ciri-ciri FDDI adalah:
-\begin{itemize}
-  \item  Implementasinya menggunakan kabel fiber optic
-  \item  Memiliki kecepatan 100 Mbps
-  \item  Tidak compatibel dengan Ethernet tapi Ethernet dapat
-         dienkapsulasi dalam paket FDDI
-  \item  Bekerja berdasarkan dua ring concentris
-  \item  Apabila salah satu ring atau node putus maka ring yang lain
-         dapat berfungsi sebagai back up.
-\end{itemize}
-
-\begin{enumerate}
-  \item ATM(Asynchronous Transfer MOde)
-        Merupakan teknologi jaringan berkecepatan tinggi yang mampu
-        mengirim data,suara dan video secara real time.ATM juga biasa di sebut Cell Relay. ATM merupakan interface transfer paket yang effesien. ATM menggunakan paket-paket dengan ukuran tertentu yang di sebut dengan cell. karena menggunakan ukuran tertentu ini, ATM menghasilkan skema yang efisien bagi pentransmisian pada jaringan berkecepatan tinggi. ATM menyediakan layanan real time dan non real time.
-\end{enumerate}
-
-\subsection{Topologi jaringan komputer}
-Topologi merupakan suatu pola hubungan antara terminal dalam jaringan komputer.pola ini sangat erat kaitannya dengan metode access dan media pengiriman yang di gunakan. Topologi yang ada sangatlah tergantung dengan letak geografis dari masing-masing terminal,kualitas kontrol yang di butuhkan dalam komunikasi ataupun penyampaian pesan, serta kecepatan dari pengiriman data. dalam definisi topologi terbagi menjadi dua, yaitu Topologi logik (logical topology) yang menunjukan bagaimana suatu media di akses oleh host.
-
-Adapun topologi fisik yang umum di gunakan dalam membangun sebuah jaringan adalah:
-\begin{itemize}
-  \item Point to point(Titik ke Titik)
-        jaringan kerja titik ke titik merupakan jaringan kerja yang paling sederhana tetapi dapat di gunakan secara luas. begitu sederhananya jaringan ini, sehingga sering kali tidak dianggap sebagai suatu jaringan tetapi hanya merupakan komunikasi biasa.
-
-        dalam hal ini, kedua simpul mempunyai kedudukan yang setingkat, sehingga simpul manapun dapat memulai dan mengendali hubungan dalam jaringan tersebut. data kirim dari satu simpul langsung kesimpul lainnya sebagai penerima,misalnya antara terminal dengan cpu.
-  \item  star Network (jaringan bintang)
-         dalam konfigurasi bintang, beberapa peralatan yang ada akan di hubungkan kedalam satu pusat komputer.kontrol yang ada akan di pusatkan pada sutu titik, seperti misalnya mengatur beban kerja serta pengaturan sumber daya yang ada. semua link harus berhubungan dengan pusat apabila ingin menyalurkan dara kesimpul lainnya yang di tuju. dalam hal ini, bila pusat mengalami gangguan, maka semua terminal juga akan terganggu. model jaringan bintang ini relative sangat sederhana, sehingga banyak di gunakan oleh pihak per-bank-kan yang biasanya mempunyai banyak kantor cabang yang tersebar di berbagai lokasi. dengan adanya konfigurasi bintang ini, maka segala macam kegiatan yang ada di kantor cabang dapatlah di kontrol dan di koordinasikan dengan baik. di samping itu, dunia pendidikan juga banyak memanfaatkan jaringan bintang ini guna mengontrol kegiatan anak didik mereka.
-  \item Ring Networks (jaringan Cincin)
-  \     pada jaringan ini terdapat beberapa peralatan saling
-        di hubungkan satu dengan lainnya dan pada akhirnya akan membentuk bagan seperti halnya sebuah cincin. jaringan cincin tidak memiliki suatu titik yang bertindak sebagai pusat ataupun pengantur lalu lintas data, semua simpul mempunyai tingkatan yang sama. data yang di kirim akan berjalan melewati beberapa simpul sehingga sampai pada simpul yang di tuju. dalam menyampaikan data, jaringan bisa bergerak dalam satu ataupun dua arah.
-
-        walaupun demikian, data yang ada tetap bergerak satu arah dalam satu saat. pertama, pesan ada akan di sampaikan dari titik ke titik lainnya dalam satu arah. apabila di temui kegagalan, misalnya terdapat kerusakan pada peralatan yang ada, maka data yang akan di kirim dengan cara kedua, yaitu pesan kemudian di transmisi dalam arah yang berlawanan, dan pada akhirnya bisa berakhir pada tempat yang di tuju.
-  \item tree Network (jaringan pohon)
-        pada jaringan pohon, terdapat beberapa tingkatan simpul (node).pusat atau simpul yang lebih tinggi tingkatanya, dapat mengatur simpul lain yang lebih rendah tingkatanya.
-\end{itemize} 
